@@ -1,0 +1,52 @@
+.header { 
+  background-color: rgb(116, 116, 202); 
+  text-align: start; 
+  margin: 0; 
+  padding: 60px; 
+} 
+ 
+title { 
+  color: white; 
+  font-size: 30px; 
+} 
+ 
+description { 
+  color: white; 
+  font-size: 24px; 
+  padding-bottom: auto; 
+} 
+.wrapper { 
+  margin: 0 auto; 
+} 
+.wrapper p{ 
+margin: 0 
+} 
+.footer { 
+  background-color: rgb(192, 192, 250); 
+  padding: 50px; 
+} 
+ 
+.title { 
+  color: white; 
+  font-size: 36px; 
+} 
+ 
+.description { 
+  color: white; 
+  font-size: 24px; 
+  padding-bottom: 50px; 
+}
+
+.logo{
+  height: 50px;
+}
+.jumbotron-withlogo{
+  margin-top: 4.5rem;
+  background-color: rgb(137, 113, 186);
+  color:white;
+
+}
+.navigation{
+  background-color: rgb(62, 46, 138) !important;
+  color:white !important;
+}
