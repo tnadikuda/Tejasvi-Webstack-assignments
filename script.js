@@ -15,3 +15,14 @@ loginLink.addEventListener("click", () => {
   loginModal.classList.add("show");
   loginModal.style.display = "block";
 });
+const closeReserveModal = () => {
+  console.log("clickedreser");
+  $("#reserveTableModal").removeClass("show");
+  reserveTableModal.style.display = "none";
+  // $("#reserveTableModal").s
+};
+const closeLoginModal = () => {
+  console.log("clickedlogin");
+  $("#LoginModal").removeClass("show");
+  loginModal.style.display = "none";
+};
