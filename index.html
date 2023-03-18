@@ -148,7 +148,7 @@
             <div class="modal-title  ">
                 <h2>Reserve a Table</h2>
             </div>
-      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      <button type="button" class="close" data-dismiss="modal" onclick="closeReserveModal()"  aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
 
@@ -300,13 +300,13 @@
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLabel">Login</h5>
-      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      <button type="button" onclick="closeLoginModal()" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
 
       </div>
       <div class="modal-body " >
-        <form class="d-flex justify-content-between">
+        <form class="d-flex">
           <div class="mb-3">
             <input type="email" class="form-control" placeholder="Enter email" id="exampleInputEmail1" aria-describedby="emailHelp">
           </div>
